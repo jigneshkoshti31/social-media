@@ -9,7 +9,7 @@ export default function Post({post}) {
             <div className="postTop">
                 <div className="postTopLeft">
                     <img className="postProfileImg" src="/assets/person/my.jpg" alt="" />
-                    <span className="postUsername">Safak KOhsjd</span>
+                    <span className="postUsername">Jignesh</span>
                     <span className="postDate">{post.date}</span>
                 </div>
                 <div className="postTopRight">
