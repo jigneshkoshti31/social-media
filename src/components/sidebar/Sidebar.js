@@ -9,6 +9,8 @@ import {
   Event, 
   WorkOutline } from "@mui/icons-material"
 import "./sidebar.css"
+import { Users } from "../../dummyData"
+import CloseFriend from "../Closefriend/CloseFriend"
 
 export default function Sidebar() {
   return (
@@ -55,7 +57,9 @@ export default function Sidebar() {
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
-          
+          {Users.map((u)=>(
+            <CloseFriend key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>

@@ -2,6 +2,7 @@ import Post from "../post/Post"
 import Share from "../share/Share"
 import "./feed.css"
 import { Posts } from "../../dummyData"
+
 export default function feed() {
   return (
     <div className="feed">

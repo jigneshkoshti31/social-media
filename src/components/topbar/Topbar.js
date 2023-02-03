@@ -4,7 +4,7 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
         <div className="topbarLeft">
-            <span className="logo">Jignesh Koshti</span>
+            <span className="logo">Social-Web</span>
         </div>
         <div className="topbarCenter">
             <div className="searchbar">
@@ -36,4 +36,3 @@ export default function Topbar() {
     </div>
   ) 
 }
-// 302048837163
